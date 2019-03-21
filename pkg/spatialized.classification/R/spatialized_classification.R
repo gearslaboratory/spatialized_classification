@@ -120,8 +120,11 @@ spatialized_classification <- function(
 		predictor_variable_ids <- training_data$variable_lookup$variable
 	}
 	
+	predictor_variable_ids <- names(training_data$extracted_windows) %in% predictor_variable_ids 
+	
 	predictors <- training_data$extracted_windows[,predictor_variable_ids,drop=FALSE]
 	
+	# browser()
 	
 	# Not functional yet.
 	if(!is.null(additional_variables))

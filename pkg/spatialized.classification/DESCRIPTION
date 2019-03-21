@@ -1,0 +1,11 @@
+Package: spatialized.classification
+Maintainer: Jonathan Asher Greenberg <spatial-tools@estarcion.net>
+License: GPL (>= 2)
+Title: Contextual classification algorithm
+Type: Package
+LazyLoad: yes
+Author: Jonathan Asher Greenberg
+Description: S
+Version: 0.1.0
+Date: 2016-01-28
+RoxygenNote: 5.0.1
